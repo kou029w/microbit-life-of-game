@@ -1,0 +1,10 @@
+{
+  "name": "microbit-life-of-game",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "microbit": "lancaster-university/microbit"
+  },
+  "targetDependencies": {},
+  "bin": "./source"
+}
