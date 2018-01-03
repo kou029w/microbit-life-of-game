@@ -8,8 +8,14 @@ addons:
       - cmake
       - build-essential
       - ninja-build
+      - python-dev
+      - libffi-dev
       - libssl-dev
 install:
   - pip install yotta
 script:
   - yt build
+notifications:
+  email:
+    on_success: change
+    on_failure: change
