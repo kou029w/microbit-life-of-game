@@ -1,5 +1,7 @@
 # microbit-life-of-game
 
+[![Build Status](https://travis-ci.org/kou029w/microbit-life-of-game.svg?branch=master)](https://travis-ci.org/kou029w/microbit-life-of-game)
+
 micro:bitでライフゲームが動きます
 
 ## 動作手順
