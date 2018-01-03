@@ -1,0 +1,14 @@
+language: python
+sudo: false
+python:
+  - 2.7
+addons:
+  apt:
+    packages:
+      - cmake
+      - build-essential
+      - ninja-build
+install:
+  - pip install yotta
+script:
+  - yt build
